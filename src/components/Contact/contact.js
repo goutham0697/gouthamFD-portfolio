@@ -19,11 +19,13 @@ const Contact = () => {
         <div className="contactDetails">
           <p>
             <strong>Email:</strong>{" "}
-            <a href="mailto:goutham0697@gmail.com">goutham0697@gmail.com</a>
+            <a href="mailto:gouthamreddy0194@gmail.com">
+              gouthamreddy0194@gmail.com
+            </a>
           </p>
           <p>
             <strong>Phone:</strong>{" "}
-            <a href="tel:+12172671475">+1 217-267-1475</a>
+            <a href="tel:+12172820464">+1 217-282-0464</a>
           </p>
           <p>
             <strong>Location:</strong> Chicago, IL, USA.
@@ -53,7 +55,7 @@ const Contact = () => {
         <div className="contactActions">
           <a
             className="mailtoBtn"
-            href="mailto:goutham0697@gmail.com?subject=Work%20Inquiry"
+            href="mailto:gouthamreddy0194@gmail.com?subject=Work%20Inquiry"
           >
             Send an email
           </a>
