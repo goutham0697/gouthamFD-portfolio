@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gouthamFD-portfolio/static/css/main.27c53dfe.css",
-    "main.js": "/gouthamFD-portfolio/static/js/main.405ddf20.js",
+    "main.js": "/gouthamFD-portfolio/static/js/main.6dc48139.js",
     "static/media/bg.png": "/gouthamFD-portfolio/static/media/bg.7b2c5ed1e5b3bb5be039.png",
     "static/media/javascript.png": "/gouthamFD-portfolio/static/media/javascript.6adc1ca5957bfa362835.png",
     "static/media/todo2.png": "/gouthamFD-portfolio/static/media/todo2.42abd2197e6955b650c0.png",
@@ -15,10 +15,10 @@
     "static/media/nodejs.svg": "/gouthamFD-portfolio/static/media/nodejs.e3487f9132b0dfb2b9bc775c799eb6cf.svg",
     "index.html": "/gouthamFD-portfolio/index.html",
     "main.27c53dfe.css.map": "/gouthamFD-portfolio/static/css/main.27c53dfe.css.map",
-    "main.405ddf20.js.map": "/gouthamFD-portfolio/static/js/main.405ddf20.js.map"
+    "main.6dc48139.js.map": "/gouthamFD-portfolio/static/js/main.6dc48139.js.map"
   },
   "entrypoints": [
     "static/css/main.27c53dfe.css",
-    "static/js/main.405ddf20.js"
+    "static/js/main.6dc48139.js"
   ]
 }
