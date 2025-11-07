@@ -31,7 +31,7 @@ const Contact = () => {
 
           <div className="links">
             <a
-              href="https://www.linkedin.com/in/gouthamt697"
+              href="https://www.linkedin.com/in/goutham-reddy-t-3aa310234/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
