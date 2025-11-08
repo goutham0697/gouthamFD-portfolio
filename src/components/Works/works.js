@@ -135,12 +135,6 @@ const projects = [
     img: portfolio2,
     short: "React.js + Node.js Enterprise Dashboard",
   },
-  {
-    id: 3,
-    title: "AWS Cloud Application",
-    img: portfolio3,
-    short: "Serverless Architecture with Lambda & S3",
-  },
 ];
 
 const Works = () => {
