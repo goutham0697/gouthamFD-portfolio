@@ -5,6 +5,10 @@ import portfolio3 from "../../assets/portfolio3.jpg";
 import todo1 from "../../assets/todo1.png";
 import todo2 from "../../assets/todo2.png";
 import todo3 from "../../assets/todo3.png";
+import applicationtracker1 from "../../assets/applicationtracker1.png";
+import applicationtracker2 from "../../assets/applicationtracker2.png";
+import applicationtracker3 from "../../assets/applicationtracker3.png";
+import applicationtracker4 from "../../assets/applicationtracker4.png";
 //import portfolio4 from "../../assets/portfolio4.jpg";
 //import portfolio5 from "../../assets/portfolio5.jpg";
 //import portfolio6 from "../../assets/portfolio6.jpg";
@@ -12,6 +16,66 @@ import todo3 from "../../assets/todo3.png";
 const projects = [
   {
     id: 0,
+    title: "Job Application Tracker | React.js Web Application",
+    short:
+      "A comprehensive React.js application for managing job applications with user authentication, status tracking, and Excel export functionality.",
+    img: applicationtracker1,
+    detailImg: applicationtracker2,
+    images: [
+      applicationtracker1,
+      applicationtracker2,
+      applicationtracker3,
+      applicationtracker4,
+    ],
+    overview:
+      "A full-featured job application management system built with React.js featuring secure user authentication, comprehensive data tracking, and export capabilities. This enterprise-ready solution provides complete CRUD operations for job application management with a responsive dashboard interface and advanced security features including puzzle-based password recovery.",
+    motivation:
+      "Developed to address the need for efficient job search management and to demonstrate proficiency in modern React.js development. The project showcases advanced React patterns, state management, security implementation, and user experience optimization in a real-world application scenario.",
+    tech: "React.js with hooks (useState, useEffect), JavaScript ES6+, HTML5, CSS3, LocalStorage API, Excel Export functionality, Component-based architecture, Client-side routing, Form validation, Responsive web design principles, Browser APIs integration.",
+    impact:
+      "Streamlined job application tracking for users managing 100+ application entries. Improved user experience through intuitive UI/UX design and real-time status updates. Enhanced security with mathematical puzzle verification system. Enabled data portability through Excel export functionality and cross-browser session persistence.",
+    features: [
+      "Secure user authentication with signup/login functionality",
+      "Password reset with mathematical puzzle verification",
+      "Responsive dashboard with real-time status tracking",
+      "Interview round management and feedback collection",
+      "LocalStorage-based data persistence across sessions",
+      "Excel export functionality for application data",
+      "Dynamic form handling with real-time validation",
+      "Component-based architecture with reusable elements",
+      "Cross-browser compatibility and responsive design",
+      "Advanced state management using React hooks",
+    ],
+    technologies: [
+      "React.js",
+      "JavaScript ES6+",
+      "HTML5",
+      "CSS3",
+      "LocalStorage API",
+      "Excel Export",
+      "React Hooks",
+      "Responsive Design",
+    ],
+    apiEndpoints: [
+      "User Authentication System",
+      "Data Persistence with LocalStorage",
+      "Excel Export Integration",
+      "Form Validation & Error Handling",
+      "Component State Management",
+      "Browser API Integration",
+    ],
+    setup: [
+      "Clone repository from GitHub",
+      "npm install - Install dependencies",
+      "npm start - Run development server",
+      "Access application at http://localhost:3000",
+      "Create account and start tracking applications",
+    ],
+    github: "https://github.com/goutham0697/applicat",
+  },
+
+  {
+    id: 1,
     title: "Todo App – FastAPI + Web Interface",
     short:
       "A simple Todo application built with FastAPI backend and a web interface with full CRUD operations.",
@@ -66,13 +130,13 @@ const projects = [
 
   // keep other gallery items simple
   {
-    id: 1,
+    id: 2,
     title: "Full-Stack Dashboard",
     img: portfolio2,
     short: "React.js + Node.js Enterprise Dashboard",
   },
   {
-    id: 2,
+    id: 3,
     title: "AWS Cloud Application",
     img: portfolio3,
     short: "Serverless Architecture with Lambda & S3",
