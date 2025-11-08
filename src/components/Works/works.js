@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./works.css";
 import portfolio2 from "../../assets/portfolio2.jpg";
-import portfolio3 from "../../assets/portfolio3.jpg";
 import todo1 from "../../assets/todo1.png";
 import todo2 from "../../assets/todo2.png";
 import todo3 from "../../assets/todo3.png";
