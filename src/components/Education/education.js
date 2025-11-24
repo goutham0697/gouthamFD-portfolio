@@ -16,7 +16,7 @@ const educationData = [
     degree: "Bachelor's in Computer Science",
     institution: "JNTUH",
     location: "Hyderabad, India",
-    period: "November 2020",
+    period: "July 2019",
     description:
       "Comprehensive foundation in computer science fundamentals including programming, database systems, software engineering, and mathematics for computing.",
   },

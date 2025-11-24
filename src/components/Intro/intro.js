@@ -10,7 +10,7 @@ const Intro = () => {
   const [showCursor, setShowCursor] = useState(true);
 
   const fullText =
-    "I'm a Full-Stack Developer with 4 years of experience building scalable, user-focused applications using React.js, Node.js, Python, and AWS cloud services. I've delivered numerous projects and enhancements across diverse domains, specializing in responsive UI design, RESTful API development, and automated CI/CD workflows. Proficient in Vue.js, FastAPI, and modern development tools within Agile environments using GitHub and Jira. Strong problem-solver with meticulous attention to detail, collaborative leadership, and passion for delivering high-quality, secure, and performant solutions that drive digital transformation and exceptional user experiences.";
+    "I'm a Full-Stack Developer with 5 years of experience building scalable, user-focused applications using React.js, Node.js, Python, and AWS cloud services. I've delivered numerous projects and enhancements across diverse domains, specializing in responsive UI design, RESTful API development, and automated CI/CD workflows. Proficient in Vue.js, FastAPI, and modern development tools within Agile environments using GitHub and Jira. Strong problem-solver with meticulous attention to detail, collaborative leadership, and passion for delivering high-quality, secure, and performant solutions that drive digital transformation and exceptional user experiences.";
 
   useEffect(() => {
     if (currentIndex < fullText.length) {
